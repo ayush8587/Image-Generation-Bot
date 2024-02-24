@@ -3,7 +3,7 @@ import requests
 from PIL import Image
 from io import BytesIO
 
-API_URL = "https://flowise-website.onrender.com/api/v1/prediction/cc712a6d-6315-40c9-8767-c2387dcbf9d3"
+API_URL = "https://flowise-website.onrender.com/api/v1/prediction/9e5d1061-fc74-453f-9c8f-67b6b278315f"
 
 def query(payload):
     response = requests.post(API_URL, json=payload)
